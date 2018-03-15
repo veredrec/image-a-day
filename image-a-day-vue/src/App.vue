@@ -1,17 +1,9 @@
-<template>
-  <div id="app">
-    <img class="logo" src="./assets/logo.png"/>
-    <router-view/>
-  </div>
-</template>
-
-<script>
-
-</script>
-
-<style>
-  .logo {
-    width: 10rem;
-    height: 10rem;
-  }
+<template src="./App.html"></template>
+<style lang='css'>
+  @import './App.css'
 </style>
+<script>
+export default {
+  name: 'App'
+}
+</script>

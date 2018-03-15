@@ -1,0 +1,19 @@
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-box {
+  background-color: #444;
+  margin: 1rem;
+}
+.image {
+  width: 12rem;
+  height: 12rem;
+  padding: 2rem 2rem 0 2rem;
+}
+.text {
+  text-align: center;
+  color: #666;
+  padding: 1rem;
+}

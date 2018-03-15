@@ -1,14 +1,4 @@
-<template>
-  <div class="image">
-    <h1>IMAGE A DAY</h1>
-  </div>
-</template>
-
-<script>
-
-</script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-
+<template src="./Home.html"></template>
+<style scoped lang="css">
+  @import 'Home.css'
 </style>
