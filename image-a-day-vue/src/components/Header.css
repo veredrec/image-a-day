@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  margin-left: 2rem;
+  width: 20rem;
+}
+.navbar {
+  margin-right: 5rem;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+}
+.menu-item {
+  margin: 2rem;
+  list-style-type: none;
+  color: #2180b7;
+}
