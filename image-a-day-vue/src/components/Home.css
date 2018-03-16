@@ -1,19 +1,21 @@
 .gallery {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 95%;
+  margin: 1rem auto;
 }
 .image-box {
   background-color: #444;
   margin: 1rem;
 }
 .image {
-  width: 12rem;
-  height: 12rem;
+  width: 15rem;
+  height: 10rem;
   padding: 2rem 2rem 0 2rem;
 }
-.text {
+.text,
+.date {
   text-align: center;
   color: #666;
-  padding: 1rem;
 }
