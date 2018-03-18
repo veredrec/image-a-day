@@ -1,0 +1,11 @@
+.footer {
+  height: 5vh;
+  text-align: center;
+}
+.line {
+  width: 100%;
+  margin: 1rem auto;
+}
+.footer-text {
+  color: #565656;
+}
