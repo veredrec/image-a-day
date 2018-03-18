@@ -11,5 +11,10 @@ new Vue({
   el: '#app',
   router,
   components: { App },
-  template: '<App/>'
+  template: '<App/>',
+  data() {
+    return {
+      items: ['1', '2', '3']
+    };
+  }
 });
