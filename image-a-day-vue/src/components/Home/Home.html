@@ -2,7 +2,7 @@
   <section class="gallery">
 
     <div class="image-box" v-for="image in images">
-      <img class="image" :src=" require('./../../assets' + image.source)" />
+      <img class="image" :src=" require('./../../assets' + image.source)" :alt="image.alt" />
       <p class="text">{{ image.text }}</p>
       <p class="date">{{ image.date }}</p>
     </div>
