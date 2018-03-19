@@ -19,6 +19,10 @@
         { source: "/march/squirrel.jpg",
           text: "Squirrel From the Window",
           date: "March 17, 2018"
+        },
+        { source: "/march/lake.png",
+          text: "Potato Creek State Park, IN",
+          date: "March 18, 2018"
         }
         ]
       }

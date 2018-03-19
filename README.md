@@ -1,2 +1,8 @@
-# image-a-day
-Present a daily image from March 15th 2018
+# Image a Day
+
+## Presents a daily image from March 15th, 2018
+
+**Tech Stack:**
+
+* Vue.js
+* Firebase
