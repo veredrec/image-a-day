@@ -27,6 +27,11 @@
           text: "Potato Creek State Park, IN",
           date: "March 18, 2018",
           alt: "A lake at a state park"
+        },
+        { source: "/march/plates.png",
+          text: "Now We Officially Moved To IN",
+          date: "March 19, 2018",
+          alt: "Indiana license plate"
         }
         ]
       }
