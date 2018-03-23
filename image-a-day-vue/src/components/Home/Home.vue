@@ -29,9 +29,24 @@
           alt: "A lake at a state park"
         },
         { source: "/march/plates.png",
-          text: "Now We Officially Moved To IN",
+          text: "Now We Officially Moved to IN",
           date: "March 19, 2018",
           alt: "Indiana license plate"
+        },
+        { source: "/march/university.png",
+          text: "On My Way to a Lacture",
+          date: "March 20, 2018",
+          alt: "Notre Dame university building"
+        },
+        { source: "/march/apollo.jpg",
+          text: "The Sun is Finally Out",
+          date: "March 21, 2018",
+          alt: "A dog sitting outside"
+        },
+        { source: "/march/simpson.png",
+          text: "Placeholders Can Be Fun",
+          date: "March 22, 2018",
+          alt: "Homer Simpson as a placeholder image"
         }
         ]
       }
