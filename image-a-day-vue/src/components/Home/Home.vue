@@ -47,6 +47,36 @@
           text: "Placeholders Can Be Fun",
           date: "March 22, 2018",
           alt: "Homer Simpson as a placeholder image"
+        },
+        { source: "/march/flags.jpg",
+          text: "In front of Notre Dame Library",
+          date: "March 23, 2018",
+          alt: "Flags and the library entrance"
+        },
+        { source: "/march/hackathon.jpg",
+          text: "Hesburgh Library Hackathon",
+          date: "March 24, 2018",
+          alt: "Hackathon T-shirt"
+        },
+        { source: "/march/hackathon-end.jpg",
+          text: "Hesburgh Library Hackathon",
+          date: "March 25, 2018",
+          alt: "People at the hackathon"
+        },
+        { source: "/march/tree.jpg",
+          text: "Just a Tree",
+          date: "March 26, 2018",
+          alt: "tree"
+        },
+        { source: "/march/trello.jpg",
+          text: "My Trello Board",
+          date: "March 27, 2018",
+          alt: "Trello board"
+        },
+        { source: "/march/bitcoin.jpg",
+          text: "First Chrome Extension",
+          date: "March 28, 2018",
+          alt: "Screen shot of a Bitcoin Chrome Extension"
         }
         ]
       }
