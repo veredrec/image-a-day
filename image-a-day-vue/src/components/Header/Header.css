@@ -18,7 +18,10 @@
 .menu-item {
   margin: 2rem;
   list-style-type: none;
-  color: #2180b7;
   font-family: 'Itim', cursive;
   font-size: 1.5rem;
+}
+.link {
+  color: #2180b7;
+  text-decoration: none;
 }

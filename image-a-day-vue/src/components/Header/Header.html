@@ -1,12 +1,14 @@
 <div class="header">
   <div class="logo-area">
-    <img class="logo" src="./../../assets/logo-n.png">
+    <router-link to="/">
+      <img class="logo" src="./../../assets/logo-n.png" alt="image-logo">
+    </router-link>
   </div>
   <nav class="navbar">
     <ul class="menu">
-      <li class="menu-item">About</li>
-      <li class="menu-item">Vered</li>
-      <li class="menu-item">More</li>
+      <li class="menu-item"><router-link class="link" to="/">Gallery</router-link></li>
+      <li class="menu-item"><router-link class="link" to="/about">About</router-link></li>
+      <li class="menu-item"><router-link class="link" to="/more">More</router-link></li>
     </ul>
   </nav>
 </div>
