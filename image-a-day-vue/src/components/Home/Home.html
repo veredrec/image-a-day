@@ -1,11 +1,23 @@
 <div class="home">
+  <section class="form">
+    <form v-on:submit.prevent="addImage">
+      <h2 class="add-title">Add an Image</h2>
+      <div class="image-form">
+        <input class="form-input" id="imageSrc" type="text" name="source" placeholder="Image Source" v-model="newImage.source" required>
+        <input class="form-input" id="imageDesc" type="text" name="text" placeholder="Image Description" v-model="newImage.text" required>
+        <input class="form-input" id="imageDate" type="text" name="date" placeholder="Image Date" v-model="newImage.date" required>
+        <input class="form-input" id="imageAlt" type="text" name="alt" placeholder="Image Text(alt)" v-model="newImage.alt" required>
+      </div>
+      <input type="submit" class="btn-submit" value="Add Image">
+    </form>
+  </section>
+
   <section class="gallery">
-
-    <div class="image-box" v-for="image in images">
-      <img class="image" :src=" require('./../../assets' + image.source)" :alt="image.alt" />
-      <p class="text">{{ image.text }}</p>
-      <p class="date">{{ image.date }}</p>
-    </div>
-
+  <div class="image-box" v-for="image in images">
+    <img class="image" :src="image.source" :alt="image.alt" />
+    <p class="text">{{ image.text }}</p>
+    <p class="date">{{ image.date }}</p>
+    <span class="delete" v-on:click="removeImage(image)">DELETE</span>
+  </div>
   </section>
 </div>
