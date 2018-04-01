@@ -6,6 +6,9 @@
 
 <script>
 import Firebase from 'firebase';
+
+import toastr from 'toastr';
+
 let config = {
   apiKey: 'AIzaSyDLQms4Q-ZUdADyWjCVOsWXzfTzsXxjiKo',
   authDomain: 'image-a-day.firebaseapp.com',
@@ -38,6 +41,7 @@ export default {
   methods: {
     addImage: function() {
       imagesRef.push(this.newImage);
+      toastr.success('Image has been added!');
       this.newImage.text = '';
       this.newImage.source = '';
       this.newImage.date = '';
@@ -45,6 +49,7 @@ export default {
     },
     removeImage: function(image) {
       imagesRef.child(image['.key']).remove();
+      toastr.success('Image Removed');
     }
   }
 };
