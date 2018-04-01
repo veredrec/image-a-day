@@ -15,7 +15,7 @@
   <div class="image-box" v-for="image in images">
     <img class="image" :src="image.source" :alt="image.alt" />
     <p class="text">{{ image.text }}</p>
-    <p class="date">{{ image.date }}</p>
+    <p class="date"> - {{ image.date }} - </p>
     <span class="delete" v-on:click="removeImage(image)">
       <icon class="trash-can" name="trash"></icon></span>
   </div>
