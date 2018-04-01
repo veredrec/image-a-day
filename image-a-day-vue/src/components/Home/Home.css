@@ -23,11 +23,23 @@
 .date {
   font-size: 1rem;
 }
-.image-form {
+.delete {
+  color: #fff;
+}
+
+/* --------- FORM ---------- */
+.form {
+  background-color: #90c0db;
+  padding: 0.5rem;
   width: 90%;
+  margin: 2rem auto;
+  border-radius: 0.5rem;
+}
+.image-form {
   margin: 2rem auto;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .add-title {
   margin: 2rem;
@@ -35,17 +47,28 @@
 .form-input {
   border: none;
   background-color: transparent;
-  border-bottom: 1px solid #666;
+  border-bottom: 1px solid #11405b;
   text-align: left;
-  color: #666;
   line-height: 1.4rem;
   font-size: 1.2rem;
   margin: 1rem;
   padding-left: 1rem;
 }
+.form-input::placeholder {
+  color: #11405b;
+  font-family: 'Itim', cursive;
+}
 .form-input:focus {
   outline: 0;
 }
-.delete {
-  color: #fff;
+.btn-submit {
+  font-family: 'Itim', cursive;
+  background-color: #11405b;
+  color: #accfe4;
+  font-size: 1.2rem;
+  padding: 0.7rem;
+  border: none;
+  display: block;
+  margin: 0 auto;
+  border-radius: 0.3rem;
 }
